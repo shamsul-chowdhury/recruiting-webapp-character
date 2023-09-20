@@ -37,7 +37,7 @@ export default function SkillSet(props: SkillsProps): JSX.Element {
             tempSkill.attributeModifier = SKILL_LIST[index].attributeModifier
             tempSkill.skillName = SKILL_LIST[index].name
             tempSkill.skillPoint = 0
-            tempSkill.modifierPoint = 
+            tempSkill.modifierPoint = modPoint
             tempSkill.totalPoint = tempSkill.skillPoint + modPoint
             tempSkillsList.push(Object.assign({}, tempSkill))
         }
